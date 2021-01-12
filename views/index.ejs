@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON-BREAD</title>
+</head>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<body class="body">
+
+    <div class="container">
+        <form action="/search" method="POST">
+        <div class="header">
+            <h1>BREAD(Browse,Read,Edit,Add,Delete)</h1>
+            <h2>Filters</h2>
+        </div>
+
+
+        <div class="check1">
+            <input class="checkbox" type="checkbox" id="exampleCheck1">
+            <label for="exampleCheck1" class="">ID</label>
+            <input class="rowinput" id="masukan" type="text" placeholder="ID">
+        </div>
+
+        <div class="check2">
+            <input class="checkbox" type="checkbox" id="exampleCheck2">
+            <label for="exampleCheck2" class="">String</label>
+            <input class="rowinput1" id="masukan" type="text" placeholder="String">
+        </div>
+
+        <div class="check3">
+            <input class="checkbox" type="checkbox" id="exampleCheck3">
+            <label for="exampleCheck3" class="">Integer</label>
+            <input class="rowinput2" id="masukan" type="text" placeholder="Integer">
+        </div>
+
+        <div class="check4">
+            <input class="checkbox" type="checkbox" id="exampleCheck4">
+            <label for="exampleCheck4" class="">Float</label>
+            <input class="rowinput3" id="masukan" type="text" placeholder="Float">
+        </div>
+
+        <div class="date">
+            <div class="check5">
+                <input class="checkbox" type="checkbox" id="exampleCheck5">
+                <label for="exampleCheck5" class="">date</label>
+                <input class="rowinput4" id="masukan" type="date" placeholder="Date">
+                <p class="date">to</p>
+                <input class="rowinput5" id="masukan" type="date" placeholder="Date">
+            </div>
+        </div>
+
+        <div class="check6">
+            <input class="checkbox" type="checkbox" id="exampleCheck6">
+            <label for="exampleCheck6" class="">Boolean</label>
+            <select class="boolean">
+                <option value="" selected>choose the boolean ....</option>
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </select>
+        </div>
+
+        <button type="submit" class="tapcari">Search</button>
+    </form>
+        <div>
+            <center>
+            <table class="table1">
+                <tr>
+                    <th>ID</th>
+                    <th>String</th>
+                    <th>Integer</th>
+                    <th>Float</th>
+                    <th>date</th>
+                    <th>boolean</th>
+                    <th>Action</th>
+                </tr>
+                <tbody>
+                    <% data.forEach((data, index)=>{ %>
+                        <tr>
+                            <th style="background-color: whitesmoke;color: grey;">
+                                <%= index + 1 %>
+                            </th>
+
+                            <td>
+                                <%= data.string %>
+                            </td>
+
+                            <td>
+                                <%= data.integer %>
+                            </td>
+
+                            <td>
+                                <%= data.float %>
+                            </td>
+
+                            <td>
+                                <%= data.date %>
+                            </td>
+
+                            <td>
+                                <%= data.boolean %>
+                            </td>
+
+                            <td>
+                                <a href="edit/<%= index %>">
+                                    <button class=" butt">Edit</button>
+                                </a>
+                                <a href="delete/<%= index %>">
+                                    <button class=" buttdel">Delete</button>
+                                </a>
+                            </td>
+                        </tr>
+                       <% }); %>
+                </tbody>
+            </table>
+        </center>
+        </div>
+        <div>
+            
+        </div>
+        <a href="add">
+            <button class=" buttadd">Add</button>
+        </a>
+    </div>
+
+
+</body>
+
+</html>

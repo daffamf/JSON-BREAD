@@ -1,0 +1,176 @@
+.body {
+       
+    padding: 0;
+    margin: 0;
+     background-color: #eaeaea;
+}
+
+.container {
+    width: 895px;
+    margin: 30px auto;
+    padding: 10px;
+    padding-bottom: 130px;
+   
+
+}
+
+.header {
+    padding: 10px;
+}
+
+.check1 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 120px;
+    left: 470px;
+    float: left;
+
+
+}
+
+.rowinput {
+    margin-left: 120px;
+    position: absolute;
+    width: 710px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check2 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 180px;
+    left: 470px;
+}
+
+.rowinput1 {
+    margin-left: 90px;
+    position: absolute;
+    width: 710px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check3 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 240px;
+    left: 470px;
+}
+
+.rowinput2 {
+    margin-left: 80px;
+    position: absolute;
+    width: 710px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check4 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 300px;
+    left: 470px;
+    float: left;
+
+}
+
+.rowinput3 {
+    margin-left: 100px;
+    position: absolute;
+    width: 710px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check5 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 360px;
+    left: 470px;
+    float: left;
+
+}
+
+.rowinput4 {
+    margin-left: 105px;
+    position: absolute;
+    width: 710px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+
+
+.check6 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 380px;
+    left: 470px;
+    float: left;
+}
+
+.boolean {
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 1px;
+    width: 750px;
+    cursor: pointer;
+}
+
+.tapcari {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 500px;
+    color: rgba(121, 121, 121, 0.87);
+    background-color: white;
+    border: 2px solid rgba(121, 121, 121, 0.87);
+    cursor: pointer;
+   font-size: 20px;
+}
+.tapcari:hover{
+    color: white;
+    background-color: rgba(121, 121, 121, 0.87);
+    
+}
+.kembali{
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    margin-left: 120px;
+    top: 500px;
+    padding: 1px 10px;
+    color: rgba(121, 121, 121, 0.87);
+    background-color: white;
+    border: 2px solid rgba(121, 121, 121, 0.87);
+    cursor: pointer;
+   font-size: 20px;
+}
+.kembali:hover{
+    color: white;
+    background-color: rgba(121, 121, 121, 0.87);
+}

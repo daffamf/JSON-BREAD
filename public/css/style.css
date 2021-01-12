@@ -1,0 +1,235 @@
+/* .body {
+    /* background-image: url('/css/3.jpeg'); */
+/* } */ *
+
+.container {
+    width: 895px;
+    margin: 30px auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color:#ffffffa3;
+
+}
+
+.header {
+    padding: 10px;
+}
+
+.check1 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 170px;
+    left: 470px;
+    float: left;
+
+
+}
+
+.rowinput {
+    margin-left: 30px;
+    position: absolute;
+    width: 710px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check2 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 250px;
+    left: 470px;
+}
+
+.rowinput1 {  
+    position: absolute;
+    width: 708px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check3 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 330px;
+    left: 470px;
+}
+
+.rowinput2 {
+    
+    width: 700px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check4 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 410px;
+    left: 470px;
+    float: left;
+
+}
+
+.rowinput3 {
+    margin-left: 20px;
+    position: absolute;
+    width: 700px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.check5 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 480px;
+    left: 470px;
+    float: left;
+
+}
+
+.rowinput4 {
+    margin-left: 120px;
+    
+    width: 120px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.rowinput5 {
+    top: 65px;
+    margin-left: 180px;
+    
+    width: 120px;
+    padding: 10px;
+    cursor: text;
+    float: right;
+}
+
+.date {
+    margin-top: 20px;
+    margin-left: 190px;
+    padding: 5px;
+    cursor: text;
+}
+
+.check6 {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 590px;
+    left: 470px;
+    float: left;
+}
+
+.boolean {
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 1px;
+    width: 725px;
+    cursor: pointer;
+}
+
+.tapcari {
+    font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    position: absolute;
+    top: 710px;
+    color: rgba(121, 121, 121, 0.87);
+    background-color: white;
+    border: 2px solid rgba(121, 121, 121, 0.87);
+    cursor: pointer;
+   font-size: 20px;
+}
+.tapcari:hover{
+    color: white;
+    background-color: rgba(121, 121, 121, 0.87);
+}
+
+.table1 {
+font-family: sans-serif;
+color: white;
+border-collapse: collapse;
+background-color:rgba(121, 121, 121, 0.87);
+font-size: large;
+
+}
+.table1 td{
+    background-color: white;
+    color: black;
+}
+
+.table1, th, td {
+margin-top: 550px;
+border: 1px solid #999;
+padding: 10px 25px;
+cursor: pointer;
+
+}
+.butt{
+font-family: sans-serif;
+border-collapse: collapse;
+ margin-left: 1px;
+ padding: 3px 5px;
+ color: green; 
+    background-color: white;
+    border: 2px solid green; 
+ cursor: pointer;
+}
+.butt:hover{
+    color: white; 
+    background-color: green;
+}
+.buttdel{
+font-family: sans-serif;
+ margin-left: 1px; 
+ padding: 1px;
+ color: red;
+    background-color: white;
+    border: 2px solid red;
+ cursor: pointer;
+
+}
+.buttdel:hover{
+    color: white;
+    background-color: red;
+}
+.buttadd{
+font-family: sans-serif;
+    color: #232323;
+    height: 30px;
+    margin-top: 40px;
+    color: rgba(121, 121, 121, 0.87);
+    background-color: white;
+    border: 2px solid rgba(121, 121, 121, 0.87);
+    cursor: pointer;
+   font-size: 20px;
+}
+.buttadd:hover{
+    color: white;
+    background-color: rgba(121, 121, 121, 0.87);
+    
+}
+
+
+
